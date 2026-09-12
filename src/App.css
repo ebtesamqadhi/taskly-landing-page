@@ -1,0 +1,45 @@
+@import './index.css';
+
+.navbar-logo {
+    width: auto;
+    height: 40px;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: var(--color-primary);
+}
+
+@media (min-width:992px) {
+    .navbar-nav .nav-link::after {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 2px;
+        background: var(--color-primary);
+        bottom: -4px;
+        left: 50%;
+        transform: translateX(-50%) scaleX(0);
+        transform-origin: center;
+        transition: transform 0.3s ease;
+    }
+
+    .navbar-nav .nav-link.active::after,
+    .navbar-nav .nav-link:hover::after {
+        transform: translateX(-50%) scaleX(1);
+    }
+}
+
+.custom-btn {
+    padding: 8px 24px;
+    border-radius: 6px;
+}
+
+.custom-btn-primary {
+    background: var(--color-primary);
+    color: white;
+}
