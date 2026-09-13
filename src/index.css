@@ -1,13 +1,20 @@
-:root{
+:root {
   --color-primary: #6847F5;
+  --color-primary-hover: #5635D9;
   --color-section-bg: #F8F7FF;
   --color-text: #555568;
-  --color-heading: #0B0B25;}
+  --color-heading: #0B0B25;
+}
 
 body {
   font-family: "Inter", sans-serif;
+  color: var(--color-text);
 }
 
-.fs-14{
+h1{
+  color: var(--color-heading);
+}
+
+.fs-14 {
   font-size: 14px;
 }

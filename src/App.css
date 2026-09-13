@@ -42,4 +42,45 @@
 .custom-btn-primary {
     background: var(--color-primary);
     color: white;
+    transition: all 0.2s ease;
+}
+
+.custom-btn-primary:hover {
+    background: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
+    color: white;
+}
+
+.hero {
+    background: var(--color-section-bg);
+    width: 100%;
+}
+
+.hero p {
+    max-width: 400px;
+}
+
+.hero h1 {
+    font-weight: 900;
+}
+
+.hero-btn {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    transition: all 0.2s ease;
+}
+
+.hero-btn:hover {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white;
+}
+
+.hero span {
+    font-size: 14px;
+}
+
+.hero .hero-img {
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(80, 60, 160, 0.12);
 }
