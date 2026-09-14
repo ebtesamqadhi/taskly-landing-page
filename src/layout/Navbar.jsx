@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/images/logo.png";
 import Button from "../components/Button";
 function Navbar() {
   return (
