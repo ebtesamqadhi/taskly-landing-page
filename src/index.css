@@ -4,6 +4,7 @@
   --color-section-bg: #F8F7FF;
   --color-text: #7A7A8F;
   --color-heading: #0B0B25;
+  --color-border: #E8E6F0;
 }
 
 body {
@@ -11,8 +12,14 @@ body {
   color: var(--color-text);
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--color-heading);
+  font-weight: 900;
 }
 
 .fs-14 {
@@ -38,7 +45,6 @@ h1 {
 
 .section-title {
   text-align: center;
-
 }
 
 .section-title span {
@@ -46,4 +52,15 @@ h1 {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.icon-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F0EDFD;
+  color: var(--color-primary);
 }

@@ -1,3 +1,9 @@
+/* custom */
+.icon-circle-orange {
+    background-color: #FDE3E4;
+    color: #D23A3B;
+}
+/* Navbar */
 .navbar-logo {
     width: auto;
     height: 40px;
@@ -32,6 +38,7 @@
     }
 }
 
+/* Hero section */
 .hero {
     background: var(--color-section-bg);
     width: 100%;
@@ -66,7 +73,23 @@
     box-shadow: 0 15px 40px rgba(80, 60, 160, 0.12);
 }
 
+/* Trusted Team section */
 .trustedteam-section img {
     width: 130px;
     height: auto;
+}
+
+/* Features section */
+.features-section {
+    background-color: var(--color-section-bg);
+}
+
+.feature-card {
+    border: 1px solid var(--color-border);
+}
+
+.features-section .icon-circle {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 12px;
 }
