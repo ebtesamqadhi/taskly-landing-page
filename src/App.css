@@ -3,6 +3,7 @@
     background-color: #FDE3E4;
     color: #D23A3B;
 }
+
 /* Navbar */
 .navbar-logo {
     width: auto;
@@ -92,4 +93,33 @@
     width: 55px;
     height: 55px;
     margin-bottom: 12px;
+}
+
+.howitwork-section img {
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(80, 60, 160, 0.12);
+    border: 1px solid var(--color-border);
+}
+
+.step-number {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.step-circle {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.howitwork-section .icon-circle {
+    position: relative;
+}
+
+.step-item:not(:last-child) .icon-circle::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    bottom: -47px;
+    background-color: var(--color-border);
 }
