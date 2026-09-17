@@ -4,6 +4,11 @@
     color: #D23A3B;
 }
 
+.features-section,
+.stats-section {
+    background-color: var(--color-section-bg);
+}
+
 /* Navbar */
 .navbar-logo {
     width: auto;
@@ -81,9 +86,7 @@
 }
 
 /* Features section */
-.features-section {
-    background-color: var(--color-section-bg);
-}
+
 
 .feature-card {
     border: 1px solid var(--color-border);
@@ -94,6 +97,8 @@
     height: 55px;
     margin-bottom: 12px;
 }
+
+/* How it work section */
 
 .howitwork-section img {
     border-radius: 12px;
@@ -122,4 +127,31 @@
     height: 40px;
     bottom: -47px;
     background-color: var(--color-border);
+}
+
+/* Stats section */
+.stat-item {
+    text-align: center;
+}
+
+.stat-item h2 {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.stat-item {
+    flex: 1;
+    position: relative;
+    text-align: center;
+}
+
+.stats-list .stat-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    background-color: var(--color-border);
+    width: 3px;
+    height: 60px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
