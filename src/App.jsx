@@ -5,6 +5,7 @@ import TrustedTeams from "./sections/TrustedTeams";
 import Features from "./sections/Features";
 import HowItWorks from "./sections/HowItWorks";
 import Stats from "./sections/Stats";
+import Testimonials from "./sections/Testimonials";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Features />
       <HowItWorks />
       <Stats />
+      <Testimonials />
     </>
   );
 }
