@@ -89,7 +89,8 @@
 
 
 .feature-card,
-.testimonial-card {
+.testimonial-card,
+.pricing-card {
     border: 1px solid var(--color-border);
 }
 
@@ -158,7 +159,7 @@
 }
 
 /* Testimonials section  */
-.testimonial-card .icon-circle{
+.testimonial-card .icon-circle {
     width: 50px;
     height: 50px;
 }
@@ -166,4 +167,44 @@
 .testimonial-card .avatar {
     font-size: 18px;
     font-weight: 700;
+}
+
+.testimonial-card h6 {
+    font-weight: 700;
+}
+
+/* Pricing section */
+.pricing-card {
+    box-shadow: 0 8px 20px rgba(80, 60, 160, 0.12);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.pricing-card:hover  {
+    border-color: var(--color-primary);
+}
+
+.pricing-card h6 {
+    font-size: 18px;
+}
+
+.pricing-card .period {
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.pricing-card .custom-btn-primary {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.pricing-card .custom-btn-outline {
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    transition: all 0.2s ease;
+}
+
+.custom-btn-outline:hover {
+    background-color: var(--color-primary);
+    color: white;
 }

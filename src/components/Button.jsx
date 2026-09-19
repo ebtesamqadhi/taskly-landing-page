@@ -1,6 +1,6 @@
-function Button({children,variant }) {
+function Button({children,variant,className="" }) {
   return (
-    <button className={`btn custom-btn custom-btn-${variant} fs-14`} type="button">
+    <button className={`btn custom-btn custom-btn-${variant} fs-14 ${className}`} type="button">
       {children}
     </button>
   );
