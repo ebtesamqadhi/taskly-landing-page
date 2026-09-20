@@ -7,6 +7,7 @@ import HowItWorks from "./sections/HowItWorks";
 import Stats from "./sections/Stats";
 import Testimonials from "./sections/Testimonials";
 import Pricing from "./sections/Pricing";
+import Faq from "./sections/Faq";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <Stats />
       <Testimonials />
       <Pricing />
+      <Faq />
     </>
   );
 }
