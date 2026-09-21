@@ -211,6 +211,17 @@
 }
 
 /* FAQ section */
-.question-card{
+.question-card {
     cursor: pointer;
+}
+
+/* CTA section */
+.cta-section {
+    background-color: var(--color-primary);
+}
+
+.cta-section .cta-btn {
+    color: var(--color-primary);
+    font-weight: 700;
+    padding: 8px 40px;
 }
