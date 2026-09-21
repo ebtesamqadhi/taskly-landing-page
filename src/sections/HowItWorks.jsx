@@ -9,7 +9,7 @@ function HowItWorks() {
           title="how it works"
           description="Get started in three simple steps"
         />
-        <div className="row align-items-center g-5">
+        <div className="row align-items-center gy-4 gx-0 gx-lg-5">
           <div className="col-lg-7">
             <img
               src={howitworks}
@@ -24,19 +24,18 @@ function HowItWorks() {
                 className="step-circle"
                 title="Create your tasks"
                 description="Add what you need to do, in seconds."
-                />
+              />
               <StepItem
                 number="2"
                 title="Organize and prioritize"
                 description="Set due dates and focus on what’s important."
-                />
+              />
               <StepItem
                 number="3"
                 title="Make progress"
                 description="Check things off and achieve your goals."
-                />
-                </div>
-            
+              />
+            </div>
           </div>
         </div>
       </div>
