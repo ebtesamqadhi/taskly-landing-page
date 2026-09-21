@@ -22,7 +22,7 @@ function Testimonials() {
     },
   ];
   return (
-    <section className="testimonials-section py-4">
+    <section className="testimonials-section py-4" id="reviews">
       <div className="container">
         <SectionTitle
           title="testimonials"

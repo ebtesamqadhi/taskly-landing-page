@@ -20,22 +20,25 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link fs-14 active" aria-current="page" href="#">
+              <a
+                className="nav-link fs-14 active"
+                aria-current="page"
+                href="#home">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fs-14" href="#">
+              <a className="nav-link fs-14" href="#features">
                 Features
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fs-14" href="#">
+              <a className="nav-link fs-14" href="#reviews">
                 Reviews
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fs-14" href="#">
+              <a className="nav-link fs-14" href="#pricing">
                 Pricing
               </a>
             </li>

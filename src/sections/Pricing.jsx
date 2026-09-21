@@ -31,7 +31,7 @@ function Pricing() {
     },
   ];
   return (
-    <section className="py-3">
+    <section className="py-3" id="pricing">
       <div className="container">
         <SectionTitle
           title="pricing"

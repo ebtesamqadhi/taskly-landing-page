@@ -4,7 +4,7 @@ import { List, ChartNoAxesColumnIncreasing, Users } from "lucide-react";
 
 function Features() {
   return (
-    <section className="features-section py-4">
+    <section className="features-section py-4" id="features">
       <div className="container">
         <SectionTitle
           title="features"

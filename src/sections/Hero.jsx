@@ -2,7 +2,7 @@ import HeroImg from "../assets/images/hero-img.png";
 import { Check } from "lucide-react";
 function Hero() {
   return (
-    <section className="hero py-4">
+    <section className="hero py-4" id="home">
       <div className="container">
         <div className="row align-items-center  gy-5 gap-lg-0 gx-lg-4">
           <div className="hero-content col-lg-6">
