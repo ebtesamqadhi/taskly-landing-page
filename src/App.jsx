@@ -9,6 +9,7 @@ import Testimonials from "./sections/Testimonials";
 import Pricing from "./sections/Pricing";
 import Faq from "./sections/Faq";
 import Cta from "./sections/Cta";
+import Footer from "./layout/Footer";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
       <Pricing />
       <Faq />
       <Cta />
+      <Footer/>
     </>
   );
 }
