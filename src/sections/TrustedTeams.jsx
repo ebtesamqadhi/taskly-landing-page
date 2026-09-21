@@ -1,10 +1,10 @@
 import SectionTitle from "../components/SectionTitle";
-import acmeimg from "../assets/images/acme.png";
-import globex from "../assets/images/globex.png";
-import nextgen from "../assets/images/nextgen.png";
-import vertex from "../assets/images/vertex.png";
-import lumen from "../assets/images/lumen.png";
-import orbit from "../assets/images/orbit.png";
+import acmeimg from "../assets/images/acme.webp";
+import globex from "../assets/images/globex.webp";
+import nextgen from "../assets/images/nextgen.webp";
+import vertex from "../assets/images/vertex.webp";
+import lumen from "../assets/images/lumen.webp";
+import orbit from "../assets/images/orbit.webp";
 
 function TrustedTeams() {
   return (

@@ -1,5 +1,5 @@
 import SectionTitle from "../components/SectionTitle";
-import howitworks from "../assets/images/howitworks-img.png";
+import howitworks from "../assets/images/howitworks-img.webp";
 import StepItem from "../components/StepItem";
 function HowItWorks() {
   return (

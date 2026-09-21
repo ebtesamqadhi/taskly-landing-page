@@ -1,4 +1,4 @@
-import HeroImg from "../assets/images/hero-img.png";
+import HeroImg from "../assets/images/hero-img.webp";
 import { Check } from "lucide-react";
 function Hero() {
   return (
